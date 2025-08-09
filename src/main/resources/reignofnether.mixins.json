@@ -48,7 +48,6 @@
         "RenderChunkRegionMixin",
         "ResourceLoadStateTrackerMixin",
         "SplashRendererAccessor",
-        "TitleScreenMixin",
         "TopdownGuiMixin",
         "fogofwar.CompiledChunkMixin",
         "fogofwar.EntityRenderDispatcherMixin",

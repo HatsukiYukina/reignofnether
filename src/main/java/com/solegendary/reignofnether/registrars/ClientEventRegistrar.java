@@ -20,7 +20,6 @@ import com.solegendary.reignofnether.healthbars.HealthBarClientEvents;
 import com.solegendary.reignofnether.hero.HeroClientEvents;
 import com.solegendary.reignofnether.hero.HeroServerEvents;
 import com.solegendary.reignofnether.hud.HudClientEvents;
-import com.solegendary.reignofnether.hud.TitleClientEvents;
 import com.solegendary.reignofnether.minimap.MinimapClientEvents;
 import com.solegendary.reignofnether.orthoview.OrthoviewClientEvents;
 import com.solegendary.reignofnether.player.PlayerClientEvents;
@@ -76,7 +75,6 @@ public class ClientEventRegistrar {
         vanillaEventBus.register(TPSClientEvents.class);
         vanillaEventBus.register(PlayerClientEvents.class);
         vanillaEventBus.register(TutorialClientEvents.class);
-        vanillaEventBus.register(TitleClientEvents.class);
         vanillaEventBus.register(WorldBorderClientEvents.class);
         vanillaEventBus.register(SurvivalClientEvents.class);
         vanillaEventBus.register(StartPosClientEvents.class);
